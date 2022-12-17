@@ -9,7 +9,7 @@ def gammaCorrection(image, g=1):
     return cv2.LUT(image, lut)
 
 minn = np.ones((6,6))
-cap = cv2.VideoCapture("2cv/balls.mp4")
+cap = cv2.VideoCapture("balls.mp4")
 count = 0
 prev_count = 0
 cv2.namedWindow("Frame")
